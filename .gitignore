@@ -1,0 +1,82 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Whisper / ML artifacts
+# =========================
+*.pt
+*.bin
+*.onnx
+.cache/
+.whisper/
+torch_cache/
+**/.cache/
+
+# =========================
+# Audio / media files
+# =========================
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.ogg
+*.aac
+
+# =========================
+# Generated outputs
+# =========================
+*.txt
+*.srt
+*.vtt
+
+# =========================
+# OS-specific
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editors / IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Python tooling
+# =========================
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+
